@@ -156,22 +156,3 @@
 // let password = "Kaicen1234";
 // let regex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$@$!%*?&])[A-Za-z\d$@$!%*?&]{8,}/g;
 // console.log(sentence.match(regex));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

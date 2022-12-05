@@ -18,3 +18,32 @@ export let renderNotification = () => {
         }, 5000);
     }));
 }
+
+
+/*form.js
+
+       document.dispatchEvent(new CustomEvent('message', {
+            detail: {
+                text: 'Formulario enviado correctamente',
+                type: 'success'
+            }
+        }));
+notification.js
+
+export let renderNotification = () => {
+
+    document.addEventListener("message", (event =>{
+
+        let notification = document.getElementById("notification");
+        let notificationText = document.getElementById("notification-message");
+       
+        notificationText.innerHTML = event.detail.text;
+        notification.classList.add(event.detail.type);
+        notification.classList.add("active");
+
+        setTimeout(() => {
+            notification.classList.remove("active");
+            notification.classList.remove(event.detail.type);
+        }, 5000);
+    }));
+}*/
